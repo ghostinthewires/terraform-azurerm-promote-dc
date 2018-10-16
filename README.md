@@ -1,5 +1,6 @@
-# terraform-azurerm-ad-create
-This module quickly promotes an Azure VM to be a Domain Controller using a Virtual Machine Extension in Terraform (using the [azurerm_virtual_machine_extension resource](https://www.terraform.io/docs/providers/azurerm/r/virtual_machine_extension.html)).
+# terraform-azurerm-promote-dc
+This module quickly promotes an Azure VM to become an Active Directory Domain Controller using a Virtual Machine Extension in Terraform (using the [azurerm_virtual_machine_extension resource](https://www.terraform.io/docs/providers/azurerm/r/virtual_machine_extension.html)).
+
 
 ## Running this Example
 
