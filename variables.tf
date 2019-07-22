@@ -20,7 +20,7 @@ variable "active_directory_domain" {
 }
 
 variable "admin_password" {
-  escription = "The password associated with the local administrator account on the virtual machine"
+  description = "The password associated with the local administrator account on the virtual machine"
 }
 
 variable "active_directory_netbios_name" {
